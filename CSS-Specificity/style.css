@@ -1,0 +1,37 @@
+body{
+    background-image:url(zebra.jpg)
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+html body div .container h1 #foo{
+    color: red;
+}
+
+[id="foo"]{
+    color:cyan;
+}
+
+.container h1{
+    color: red;
+}
+
+div h1{
+    color: green !important;
+}
+
+h1, h2, h3{
+    color:#ffffff;
+    text-shadow: 2px 2px 5px black;
+    line-height: 1rem;
+    font-family: sans-serif;
+}
+
+.borderImg{
+    border: 10px dashed red; 
+}
+
+ul li{
+    color: white;
+    font-size: 20px;
+}
