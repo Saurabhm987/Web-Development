@@ -17,9 +17,9 @@ nav ul{
     background-color: #eee;
     overflow: hidden;  
     margin: 0;
-    padding:0
+    padding: 0;
     
-}
+} 
 
 ul.topnav li {
     list-style: none;
@@ -48,9 +48,8 @@ ul.topnav li.dropdownIcon{
     display: none;
 }
 
-
-@media screen and(max-width: 600px){
-    ul.topnav li:not(:nth-child(1)) {
+@media screen and (max-width: 680px){
+    ul.topnav li:not(:nth-child(1)){
         display:none;
     }
 }
